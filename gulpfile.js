@@ -103,7 +103,7 @@ gulp.task('clean', () => {
 gulp.task('compress', ['clean', 'css:compress', 'js:compress', 'html:compress', 'images:compress']);
 
 // watching
-gulp.task('watch', ['clean', 'css', 'js', 'css:watch', 'js:watch', 'html:watch']);
+gulp.task('watch', ['css', 'js', 'css:watch', 'js:watch', 'html:watch']);
 
 // start
 gulp.task('default', ['serve', 'watch']);
