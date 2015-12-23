@@ -1,0 +1,6 @@
+@import "partials/normalize";
+@import "partials/base";
+
+body {
+  font-size: 14px;
+}

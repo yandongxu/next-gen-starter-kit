@@ -1,0 +1,6 @@
+dist/
+node_modules
+.DS_STORE
+*.log
+public/assets/scripts/
+public/assets/styles/
