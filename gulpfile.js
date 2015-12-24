@@ -100,7 +100,7 @@ gulp.task('clean', () => {
 });
 
 // compress
-gulp.task('compress', ['clean', 'css:compress', 'js:compress', 'html:compress', 'images:compress']);
+gulp.task('compress', ['css:compress', 'js:compress', 'html:compress', 'images:compress']);
 
 // watching
 gulp.task('watch', ['css', 'js', 'css:watch', 'js:watch', 'html:watch']);
